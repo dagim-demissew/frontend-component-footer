@@ -1,5 +1,7 @@
-$gray-footer: #fcfcfc !default;
+<FooterCopyright>
+  © {new Date().getFullYear()} Dagim Edx
+</FooterCopyright>
 
-.footer {
-  background-color: var(--pgn-color-light-100, $gray-footer);
-}
+<div style={{ textAlign: 'center', marginTop: '8px' }}>
+  All rights reserved
+</div>

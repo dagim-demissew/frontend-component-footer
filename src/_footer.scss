@@ -1,7 +1,65 @@
-<FooterCopyright>
-  © {new Date().getFullYear()} Dagim Edx
-</FooterCopyright>
+.custom-footer {
+  background: #ffffff;
+  border-top: 1px solid #e0e0e0;
+  padding: 2rem;
+  font-size: 14px;
+}
 
-<div style={{ textAlign: 'center', marginTop: '8px' }}>
-  All rights reserved
-</div>
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.powered-area {
+  display: flex;
+  align-items: center;
+}
+
+.logo-list {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.powered-text {
+  font-weight: 600;
+}
+
+.footer-logo {
+  height: 40px;
+  width: auto;
+}
+
+.nav-colophon ol {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-colophon a {
+  color: #444;
+  text-decoration: none;
+}
+
+.nav-colophon a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  color: #666;
+  flex-wrap: wrap;
+}
+
+.edx-attribution {
+  margin: 0;
+}
+

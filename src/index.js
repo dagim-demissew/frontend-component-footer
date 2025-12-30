@@ -4,7 +4,9 @@ import StudioFooter from './components/studio-footer';
 import FooterSlot from './plugin-slots/FooterSlot';
 import StudioFooterSlot from './plugin-slots/StudioFooterSlot';
 
+
 export default Footer;
+export { default as Footer } from './components/Footer';
 export {
   messages, EVENT_NAMES, StudioFooter, FooterSlot, StudioFooterSlot,
 };
